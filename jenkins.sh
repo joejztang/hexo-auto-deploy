@@ -10,13 +10,13 @@ cd $HOME
 
 rm -r hexo-source
 
-git clone git@github.com:joejztang/hexo-source.git
+git clone git@github.com:joejztang/<your_awesome_repo>.git
 
 rm -rf techblog/source/
 
 mkdir techblog/source
 
-cp -r hexo-source/* techblog/source/
+cp -r your_awesome_repo/* techblog/source/
 
 cd $HOME/techblog
 
